@@ -1,12 +1,10 @@
 #include <stdio.h>
+#include <math.h>
+
 int main()
 {
-    unsigned int a = 0x123456;
-    a >>= 3;
-    printf("%x\n", a);
-
-    unsigned int b = 0x123456;
-    b >>= 35;
-    printf("%x\n", b);
+    if(5 == ~-5 + 1)
+        printf("OK!");
     return 0;
 }
+//1 - 2^7
